@@ -1,3 +1,7 @@
+//Edgar Capuchino
+//ElectronicCats
+//Envío de un counter para prueba de conexión a Gateway
+
 #include <RadioLib.h>
 
 SX1276 radio = new Module(SS, RFM_DIO0, RFM_RST, RFM_DIO1);

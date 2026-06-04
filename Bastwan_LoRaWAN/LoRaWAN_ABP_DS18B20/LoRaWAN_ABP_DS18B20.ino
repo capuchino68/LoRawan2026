@@ -1,6 +1,6 @@
 //by Edgar Capuchino
 //Electronic Cats
-
+//Conexión a Gateway y en vio de datos de sensor DS18B20 con CayenneLPP
 #include <RadioLib.h>
 #include <OneWire.h>
 #include <DallasTemperature.h>
