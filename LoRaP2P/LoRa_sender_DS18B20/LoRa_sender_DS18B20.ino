@@ -1,7 +1,3 @@
-//Edgar Capuchino
-//ElectronicCats
-//Envío de datos punto a punto con sensor DS18B20
-
 #include <SPI.h>
 #include <LoRa.h>
 #include <OneWire.h>
