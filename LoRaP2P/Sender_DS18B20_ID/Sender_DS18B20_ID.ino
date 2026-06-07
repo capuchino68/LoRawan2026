@@ -48,11 +48,11 @@ void loop() {
   sensors.requestTemperatures();
   float tempC = sensors.getTempCByIndex(0);
 
-  if (tempC == DEVICE_DISCONNECTED_C) {
+  /*if (tempC == DEVICE_DISCONNECTED_C) {
     Serial.println("DS18B20 desconectado");
     delay(3000);
     return;
-  }
+  }*/
 
   int16_t temp10 = (int16_t)(tempC * 10.0);
 

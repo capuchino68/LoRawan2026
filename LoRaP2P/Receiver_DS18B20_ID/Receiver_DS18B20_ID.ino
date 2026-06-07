@@ -8,7 +8,7 @@
 #define LORA_FREQ 915E6
 
 #define LED_VERDE 6
-#define LED_ROJO  7
+#define LED_ROJO  9
 
 void paqueteValido() {
   digitalWrite(LED_ROJO, LOW);
