@@ -32,7 +32,7 @@ void setup() {
   LoRa.setCodingRate4(5);
   LoRa.setTxPower(17);
 
-  Serial.println("Emisor sin sensor listo");
+  Serial.println("Emisor listo");
 }
 
 void loop() {

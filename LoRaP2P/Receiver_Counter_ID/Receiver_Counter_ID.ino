@@ -62,7 +62,7 @@ void setup() {
   LoRa.setSignalBandwidth(125E3);
   LoRa.setCodingRate4(5);
 
-  Serial.println("Receptor sin sensor listo");
+  Serial.println("Receptor listo");
 }
 
 void loop() {

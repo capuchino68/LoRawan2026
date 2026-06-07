@@ -62,7 +62,7 @@ void setup() {
   LoRa.setSignalBandwidth(125E3);
   LoRa.setCodingRate4(5);
 
-  Serial.println("Receptor con filtro ID listo");
+  Serial.println("Receptor con ID listo");
 }
 
 void loop() {

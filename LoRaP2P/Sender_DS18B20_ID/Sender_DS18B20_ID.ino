@@ -41,7 +41,7 @@ void setup() {
   LoRa.setCodingRate4(5);
   LoRa.setTxPower(17);
 
-  Serial.println("Emisor con DS18B20 listo");
+  Serial.println("Emisor con ID listo");
 }
 
 void loop() {
